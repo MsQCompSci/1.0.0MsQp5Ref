@@ -2,9 +2,10 @@
 <html>
     <head>
         <title>Ms. Qs p5.js Reference</title>
+        <link href="style.css" rel="stylesheet" type= "text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <link rel="stylesheet" type= "text/css" href="style.css">
+        
     </head>
     
     <body>
@@ -13,10 +14,11 @@
               <a href="index.html" class="brand-logo right">Ms. Qs p5.js Reference</a>
               <ul id="nav-mobile" class="left hide-on-med-and-down">
                  <li><a href="index.html">Home</a></li>
-                 <li style= "color: black"><a href="planning.html">Planning</a></li>  <!--Unique Webpage Content-->
-                <li><a href="shapes.html">Shapes</a></li>
-                <li><a href="animation.html">Animation</a></li>
-              </ul>
+                 <li><a href="planning.html">Planning</a></li>
+                  <li><a href="shapes.html">Shapes</a></li>
+                  <li><a href="animation.html">Animation</a></li>
+                  <li><a href="sound.html">Sound</a></li>
+                  </ul>
             </div>
         </nav>
         
@@ -26,19 +28,16 @@
         <div class="row">
             <div class="col s1 push-s2"><span class="flow-text"><img class="materialboxed" width="400" src="https://princetonlibrary.org/wp-content/uploads/2018/04/p5js.png"></span></div>
             <div class="col s4 push-s5"><span class="flow-text">
-              <h3>How To Use This Site</h3>
-              <p style= "font-size:10">This site is a tool you may use to help guide you while you plan and create your artwork in p5.js. </p>
-              <ul>
-                    <li> The <b>Shapes</b> page has reference information you can use to draw shapes in p5.js</li>
-                    <li> The <b>Animation</b> page has reference information you can use while creating animations in p5.js</li>
-                </ul>
+              <h3 style="color: white; font-size: 40px;">How To Use This Site</h3>
+              <p style= "font-size:8 color: white">This site is a tool you may use to help guide you while you plan and create your artwork in p5.js. </p>
               </span></div>
             </div>
           
-       
+        <!-- Card Section-->  
+        <div class="row">
         <!--Planning Card -->
-          <div class="row">
-          <div class="col s3 push-2">
+        
+          <div class="col m3 push-3">
             <div class="card purple darken-1">
               <div class="card-image">
                 <img src="https://vahanian.com/wp-content/uploads/2018/04/vahanian-home-financial-planning.png">
@@ -52,7 +51,65 @@
               </div>
             </div>
           </div>
+          
+          <!--Shapes Card -->
+         
+          <div class="col m3 push-7">
+            <div class="card purple darken-1">
+              <div class="card-image">
+                <img height="280" src="https://static1.squarespace.com/static/57d97bcf2994ca5cadf09450/t/57daa75f6b8f5b4e71922508/1473947492593/">
+                <span class="card-title">Shapes</span>
+              </div>
+              <div class="card-content">
+                <p>The shapes page has reference information you can use to draw shapes in p5.js</p>
+              </div>
+              <div class="card-action">
+                <a href="shapes.html">Click to View</a>
+              </div>
+            </div>
           </div>
+         
+          
+          <!--Animations Card -->
+         
+          <div class="col m3 push-9">
+            <div class="card purple darken-1">
+              <div class="card-image">
+                <img height="280" src="https://sparkbox.github.io/bouncy-ball/site/assets/images/graphic.png">
+                <span class="card-title">Animation</span>
+              </div>
+              <div class="card-content">
+                <p>The animation page has reference information you can use while creating animations in p5.js</p>
+              </div>
+              <div class="card-action">
+                <a href="animation.html">Click to View</a>
+              </div>
+            </div>
+          </div>
+         
+          
+          
+          <!--Sound Card -->
+         
+          <div class="col m3 push-9">
+            <div class="card purple darken-1">
+              <div class="card-image">
+                <img height="280" src="data:image/jpeg;base64,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">
+                <span class="card-title">Sound</span>
+              </div>
+              <div class="card-content">
+                <p>The sound page has reference information you can use while incorperating sound in p5.js</p>
+              </div>
+              <div class="card-action">
+                <a href="sound.html">Click to View</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          
+        <!-- End Card Section -->
+        </div>
         
         <!--END Unique Webpage Content-->
             <footer class="page-footer" style ="background-color: purple">

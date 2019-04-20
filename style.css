@@ -5,21 +5,20 @@ body {
     
     
 h1 {
-    color: purple;
+    color:white;
     text-align: center;
-    font-size: 50px;
 }
 
 h2{
-    color: white;
-    text-align: left;
-    font-size: 20px;
+  
 }
 
 h3{
+    color:white;
+}
+
+p{
     color: white;
-    text-align: center;
-    font-size: 10px;
 }
 
 
